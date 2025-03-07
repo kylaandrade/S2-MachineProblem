@@ -3,7 +3,7 @@ let lastBoxColor = null;
 function moveBox(color) {
     var box1 = document.getElementById('box1');
     var box2 = document.getElementById('box2');
-    
+
     let targetPosition = 200;
 
     box1.style.transition = 'top 1.5s ease-in-out, background-color 2.5s ease-out';
